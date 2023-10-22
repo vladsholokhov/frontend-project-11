@@ -5,20 +5,20 @@
 
 name: hexlet-check
 
-on:
-  push:
-    branches:
+on: 
+  push: 
+    branches: 
       - '**'
-    tags:
+    tags: 
       - '**'
 
-jobs:
-  build:
+jobs: 
+  build: 
     runs-on: ubuntu-latest
-    steps:
+    steps: 
       - uses: actions/checkout@v3
 
       - name: Hexlet project check
         uses: hexlet/project-action@release
-        with:
+        with: 
           hexlet-id: ${{ secrets.HEXLET_ID }}

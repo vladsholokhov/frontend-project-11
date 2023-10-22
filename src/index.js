@@ -1,3 +1,6 @@
+import './styles.scss';
+import 'bootstrap';
+
 class Example {
   constructor(element) {
     this.element = element;
