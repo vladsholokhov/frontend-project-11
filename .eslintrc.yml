@@ -1,14 +1,14 @@
 ---
 root: true
 
-env:
+env: 
   node: true
   jest: true
   browser: true
 
-extends:
+extends: 
   - "airbnb-base"
 
-rules:
+rules: 
   no-console: 0
   import/extensions: 0
