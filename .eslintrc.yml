@@ -1,10 +1,6 @@
 ---
 root: true
 
-plugins:
-  - jest
-  - babel
-
 env:
   node: true
   jest: true
